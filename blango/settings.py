@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-+sn%dpa!086+g+%44z9*^j^q-u4n!j(#wl)x9a%_1op@zz2+1-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["oliviapenguin-leopardrelax-8000.codio.io"]
+ALLOWED_HOSTS = ["oliviapenguin-leopardrelax-8000.codio.io",
+           "mammalsalami-laurawolf-8000.codio.io"]
 
 
 # Application definition
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'blango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
