@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-+sn%dpa!086+g+%44z9*^j^q-u4n!j(#wl)x9a%_1op@zz2+1-
 DEBUG = True
 
 ALLOWED_HOSTS = ["oliviapenguin-leopardrelax-8000.codio.io",
-           "mammalsalami-laurawolf-8000.codio.io"]
+           "mammalsalami-laurawolf-8000.codio.io",
+           "servicehammer-shrinkpopcorn-8000.codio.io"]
 
 
 # Application definition
