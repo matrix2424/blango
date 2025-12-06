@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["oliviapenguin-leopardrelax-8000.codio.io",
            "mammalsalami-laurawolf-8000.codio.io",
-           "servicehammer-shrinkpopcorn-8000.codio.io"]
+           "servicehammer-shrinkpopcorn-8000.codio.io",
+           "harvardvisible-programjerome-8000.codio.io"]
 
 
 # Application definition
