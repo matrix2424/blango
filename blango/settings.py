@@ -50,6 +50,7 @@ class Dev(Configuration):
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
+        "blango_auth",
         'blog',
         "crispy_forms",
         "crispy_bootstrap5",
@@ -134,6 +135,8 @@ class Dev(Configuration):
     # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
     LANGUAGE_CODE = 'en-us'
+
+    AUTH_USER_MODEL = "blango_auth.User"
 
     INTERNAL_IPS = ["192.168.10.92"]
 

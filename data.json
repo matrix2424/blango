@@ -1,0 +1,19 @@
+[{"model": "blog.comment", "pk": 1, 
+"fields": {"creator": null,
+ "content": "how exactly, remains to be seen", "post": null}}, 
+ {"model": "blog.comment", "pk": 2, 
+ "fields": {"creator": null, "content": "ok lets see", "post": null}},
+  {"model": "blog.comment", "pk": 3, 
+  "fields": {"creator": null, "content": "ok", "post": null}}, 
+  {"model": "blog.comment", "pk": 4, "fields": 
+  {"creator": null, "content": "ok , lets see", "post": null}}, 
+  {"model": "blog.comment", "pk": 5, "fields":
+   {"creator": null, "content": "bhhjb", "post": null}},
+    {"model": "blog.comment", "pk": 6, "fields":
+     {"creator": null, "content": "ok", "post": null}},
+      {"model": "blog.comment", "pk": 7, "fields": {"creator": 1, "content": "lets see how", "post": null}}, {"model": "blog.comment", "pk": 8, "fields": {"creator": 1, "content": "ok", "post": null}}, {"model": "blog.comment", "pk": 9, "fields": {"creator": 1, "content": "ok", "post": null}}, {"model": "blog.tag", "pk": 1, "fields": {"value": "seo"}}, {"model": "blog.tag", "pk": 2, "fields": {"value": "aeo"}}, {"model": "blog.tag", "pk": 3, "fields": {"value": "cyber"}}, {"model": "blog.post", "pk": 1, "fields": {"author": 1, "created_at": "2025-07-30T04:05:41.886Z", "modified_at": "2025-07-30T04:06:13.597Z", "published_at": null, "title": "SEO 101", "slug": "seo-101", "summary": "overview of seo", "content": "what is seo and its role", "tags": [1]}}, {"model": "blog.post", "pk": 2, "fields": {"author": 2, "created_at": "2025-12-04T10:59:08.289Z", "modified_at": "2025-12-04T10:59:08.289Z", "published_at": "2025-12-04T10:58:06Z", "title": "AI and Marketing", "slug": "ai-and-marketing", "summary": "AI role in Marketing", "content": "AI will transform marketing", "tags": [2]}}, {"model": "blog.post", "pk": 3, "fields": {"author": 3, "created_at": "2025-12-04T11:01:17.477Z", "modified_at": "2025-12-04T11:01:17.477Z", "published_at": "2025-12-04T11:00:01Z", "title": "AI and Cybersecurity", "slug": "ai-and-cybersecurity", "summary": "AI role in cybersecurity", "content": "How AI will impact cybersecurity in 2025 and beyond remains to be seen", "tags": [2]}}, 
+      {"model": "blango_auth.User", "pk": 1, "fields":
+       {"password": "argon2$argon2id$v=19$m=102400,t=2,p=8$amJRRks0dllBcU8zRTUwbmttc3k3Nw$c02gxUIpPvEGaFjqYmzJsQ", "last_login": "2025-12-07T17:42:52.003Z", "is_superuser": true, "username": "codio", "first_name": "", "last_name": "", "email": "codio@example.com", "is_staff": true, "is_active": true, "date_joined": "2025-07-30T03:38:29.772Z", "groups": [], "user_permissions": []}}, 
+       {"model": "blango_auth.User", "pk": 2, "fields": {"password": "pbkdf2_sha256$260000$f9AOe20V7G2VD68pPDPPWf$h4KObjcXHhpA/1eyXaWV9zFsrWk63rYmWvLQiF0eEtE=", "last_login": null, "is_superuser": false, "username": "John", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2025-12-04T10:57:37.371Z", "groups": [], "user_permissions": []}}, 
+       {"model": "blango_auth.User", "pk": 3,
+        "fields": {"password": "pbkdf2_sha256$260000$VkWSM9cgIcF8FrlOipnCha$PRHrsRmSQDKREcVLUeN8EGJ5dXN7KZfdZZ6/YO8hNTw=", "last_login": null, "is_superuser": false, "username": "Swet", "first_name": "Swet", "last_name": "Mgk", "email": "swet@example.com", "is_staff": false, "is_active": true, "date_joined": "2025-12-04T10:59:43Z", "groups": [], "user_permissions": []}}]

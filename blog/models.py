@@ -29,6 +29,7 @@ class Comment(models.Model):
     creator = models.ForeignKey(settings.AUTH_USER_MODEL, 
             on_delete=models.CASCADE, null=True)
     content = models.TextField(max_length=200)
+    content_type= models.TextField(max_length=100, null=True)
     #created_at = models.DateTimeField(default=timezone.now)
     #modified_at = models.DateTimeField(auto_now=True)
     post = models.ForeignKey(Post, on_delete=models.CASCADE, 
@@ -37,3 +38,14 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.content
+
+
+
+class AuthorProfile(models.Model):
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, 
+        related_name="profile" )
+    bio = models.TextField()
+
+    def __str__(self):
+        return f"{self.__class__.__name__} object for {self.user}"
