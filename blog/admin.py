@@ -9,3 +9,6 @@ class PostAdmin(admin.ModelAdmin):
 
 admin.site.register(Post, PostAdmin)
 admin.site.register(AuthorProfile)
+
+# Register your models here.
+admin.site.register(Comment)
