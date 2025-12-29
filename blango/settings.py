@@ -64,7 +64,8 @@ class Dev(Configuration):
         "rest_framework",
         "rest_framework.authtoken",
         "drf_yasg",
-        "django_filters"
+        "django_filters",
+        "versatileimagefield"
     ]
 
     MIDDLEWARE = [
@@ -96,6 +97,9 @@ class Dev(Configuration):
             },
         },
     ]
+
+    MEDIA_ROOT = BASE_DIR / "media"
+    MEDIA_URL = "/media/"
 
     WSGI_APPLICATION = 'blango.wsgi.application'
 
