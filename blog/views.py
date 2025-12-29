@@ -51,3 +51,8 @@ def post_detail(request, slug):
             "blog/post-detail.html", 
             {"post": post, "comment_form": comment_form})  
     #return render(request, "blog/post-detail.html", {"post": post})
+
+
+
+def post_table(request):
+    return render(request, "blog/post-table.html")
